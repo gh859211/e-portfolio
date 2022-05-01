@@ -24,7 +24,7 @@ export default function SubscribeCard({
   const { data: subscriber, mutate } = useSWR<{ count: number }>(
     newsletterFlag ? '/api/newsletter/count' : null
   );
-  //#endregion  //*======== Count ===========
+  //#end-region  //*======== Count ===========
 
   //#region  //*=========== Form and Status ===========
 
@@ -62,7 +62,7 @@ export default function SubscribeCard({
         }
       });
   };
-  //#endregion  //*======== Form and Status ===========
+  //#end-region  //*======== Form and Status ===========
 
   return (
     <div className={clsx('rounded border p-4 dark:border-gray-600', className)}>
@@ -119,7 +119,7 @@ export default function SubscribeCard({
         ) : status === 'error' ? (
           <>
             {errMsg} Sorry! You can subscribe from the{' '}
-            <CustomLink href='https://www.getrevue.co/profile/clarence'>
+            <CustomLink href='https://www.getrevue.co/profile/cryptopal85'>
               revue website
             </CustomLink>{' '}
             instead.
@@ -127,7 +127,7 @@ export default function SubscribeCard({
         ) : status === 'loading' ? (
           'Loading...'
         ) : (
-          'I write 1-2 high quality posts about front-end development each month!'
+          'I do my best on preparing 1 or 2 high quality posts for each months!'
         )}
       </p>
       <p className='mt-2 text-xs text-gray-600 dark:text-gray-300'>
