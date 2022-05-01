@@ -50,9 +50,9 @@ export default function SingleBlogPage({
   );
 
   //#region  //*=========== Link Constants ===========
-  const COMMIT_HISTORY_LINK = `https://github.com/theodorusclarence/theodorusclarence.com/commits/main/src/contents/blog/${frontmatter.slug}.mdx`;
-  const GITHUB_EDIT_LINK = `https://github.com/theodorusclarence/theodorusclarence.com/blob/main/src/contents/blog/${frontmatter.slug}.mdx`;
-  const OG_BANNER_LINK = `https://res.cloudinary.com/theodorusclarence/image/upload/f_auto,c_fill,ar_4:5,w_1200/theodorusclarence/banner/${frontmatter.banner}`;
+  const COMMIT_HISTORY_LINK = `https://github.com/cryptopal85/e-portfolio/commits/main/src/contents/blog/${frontmatter.slug}.mdx`;
+  const GITHUB_EDIT_LINK = `https://github.com/cryptopal85/e-portfolio/blob/main/src/contents/blog/${frontmatter.slug}.mdx`;
+  const OG_BANNER_LINK = `https://res.cloudinary.com/cryptopal85/image/upload/f_auto,c_fill,ar_4:5,w_1200/e-portfolio/blog/banner/${frontmatter.banner}`;
   //#endregion  //*======== Link Constants ===========
 
   //#region  //*=========== Blog Language ===========
@@ -106,8 +106,8 @@ export default function SingleBlogPage({
           <div className='layout'>
             <div className='pb-4 dark:border-gray-600'>
               <CloudinaryImg
-                publicId={`theodorusclarence/banner/${frontmatter.banner}`}
-                alt={`Photo from unsplash: ${frontmatter.banner}`}
+                publicId={`e-portfolio/blog/banner/${frontmatter.banner}`}
+                alt={`blog banner photo: ${frontmatter.banner}`}
                 width={1200}
                 height={(1200 * 2) / 5}
                 aspect={{ height: 2, width: 5 }}
@@ -174,7 +174,7 @@ export default function SingleBlogPage({
                   href={`/blog/${isEnglish ? 'id-' : ''}${cleanSlug}`}
                   className='mt-4'
                 >
-                  Read in {isEnglish ? 'Bahasa Indonesia' : 'English'}
+                  Read in {isEnglish ? 'Türkçe' : 'English'}
                 </CustomLink>
               )}
             </div>
