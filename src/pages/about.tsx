@@ -17,7 +17,9 @@ export default function AboutPage() {
     <Layout>
       <Seo
         templateTitle='About'
-        description='Clarence is a front-end developer that started learning in May 2020. He write blogs about his approach and mental model on understanding topics in front-end development.'
+        description='Gürkan is a security & risk professional who works in the Cybersecurity
+        field and is passionate about | Crypto Assets | Blockchains | Risk
+        Management Frameworks | Privacy Regulations |'
       />
 
       <main>
@@ -25,7 +27,7 @@ export default function AboutPage() {
           <div className='layout min-h-main py-20'>
             <h2 data-fade='0'>About</h2>
             <h1 className='mt-1' data-fade='1'>
-              <Accent>Theodorus Clarence</Accent>
+              <Accent>cryptopal85</Accent>
             </h1>
             <div className='mt-4' data-fade='2'>
               <CloudinaryImg
