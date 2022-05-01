@@ -19,7 +19,7 @@ export default function Header({ large = false }: HeaderProps) {
   /** Ex: /projects/petrolida-2021 -> ['', 'projects', 'petrolida-2021'] */
   const arrOfRoute = router.route.split('/');
   const baseRoute = '/' + arrOfRoute[1];
-  //#endregion  //*======== Route Functionality ===========
+  //#end-region  //*======== Route Functionality ===========
 
   //#region  //*=========== Scroll Shadow ===========
   const [onTop, setOnTop] = React.useState<boolean>(true);
@@ -32,7 +32,7 @@ export default function Header({ large = false }: HeaderProps) {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  //#endregion  //*======== Scroll Shadow ===========
+  //#end-region  //*======== Scroll Shadow ===========
 
   return (
     <header
@@ -82,7 +82,7 @@ export default function Header({ large = false }: HeaderProps) {
                   <span
                     className={clsx(
                       'transition-colors',
-                      'bg-primary-300/0 group-hover:bg-primary-300/20 dark:group-hover:bg-primary-300/0',
+                      'rounded-sm bg-primary-400/0 group-hover:bg-primary-400/40 dark:group-hover:bg-primary-400/0',
                       href === baseRoute &&
                         '!bg-primary-300/50 dark:bg-gradient-to-tr dark:from-primary-300 dark:to-primary-400 dark:bg-clip-text dark:text-transparent'
                     )}
