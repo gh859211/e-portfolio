@@ -56,7 +56,7 @@ export default function IndexPage({
               className='mt-1 text-3xl md:text-5xl 2xl:text-6xl'
               data-fade='2'
             >
-              You can call me <Accent>Gürkan</Accent>
+              Welcome to my <Accent>e-portfolio</Accent>
             </h1>
             <p
               className={clsx(
@@ -65,14 +65,15 @@ export default function IndexPage({
               )}
               data-fade='3'
             >
-              I work with React Ecosystem, and write to teach people how to
-              rebuild and redefine fundamental concepts through mental models.
+              I am a security & risk professional who works in the Cybersecurity
+              field and is passionate about | Crypto Assets | Blockchains | Risk
+              Management Frameworks | Privacy Regulations |
             </p>
             <p
               className='mt-3 max-w-4xl leading-relaxed text-gray-700 dark:text-gray-200 md:mt-4 md:text-lg 2xl:text-xl'
               data-fade='4'
             >
-              Don't forget to sign my{' '}
+              Leave a message to my{' '}
               <CustomLink href='/guestbook'>guestbook</CustomLink>!
             </p>
             <div
@@ -97,7 +98,7 @@ export default function IndexPage({
               className='mt-4 flex flex-wrap gap-4 gap-y-2 md:mt-8'
             >
               <UnstyledLink
-                href='https://clarence.link/cv'
+                href='https://1drv.ms/b/s!Asx74ZykaJw1gcFCpnr0TWvf4rKSeQ?e=D8csIk'
                 className={clsx(
                   'inline-flex items-center gap-1 text-sm font-medium md:text-base',
                   'text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white',
@@ -112,7 +113,7 @@ export default function IndexPage({
                 <span>Resume</span>
               </UnstyledLink>
               <UnstyledLink
-                href='https://twitter.com/th_clarence'
+                href='https://twitter.com/gurkan_huray'
                 className={clsx(
                   'inline-flex items-center gap-1 text-sm font-medium md:text-base',
                   'group text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white',
@@ -124,10 +125,10 @@ export default function IndexPage({
                 }}
               >
                 <SiTwitter className='shrink-0 transition-colors group-hover:text-[#1da1f2]' />
-                <span>@th_clarence</span>
+                <span>@gurkan_huray</span>
               </UnstyledLink>
               <UnstyledLink
-                href='https://github.com/theodorusclarence'
+                href='https://github.com/cryptopal85'
                 className={clsx(
                   'inline-flex items-center gap-1 text-sm font-medium md:text-base',
                   'text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white',
@@ -139,7 +140,7 @@ export default function IndexPage({
                 }}
               >
                 <SiGithub className='shrink-0' />
-                <span>theodorusclarence</span>
+                <span>cryptopal85</span>
               </UnstyledLink>
             </div>
           </article>
@@ -180,7 +181,7 @@ export default function IndexPage({
                 <div className='mt-8 h-full w-full md:mt-0'>
                   <h2 className='text-4xl md:text-6xl'>
                     <Accent className='inline decoration-clone leading-snug dark:leading-none'>
-                      Rebuild your mental model
+                      Information Risk Management
                     </Accent>
                   </h2>
                   <p className='mt-4 text-base text-gray-600 dark:text-gray-300 md:text-lg'>
@@ -188,25 +189,29 @@ export default function IndexPage({
                       withUnderline
                       content={
                         <>
-                          A mental model is an explanation of someone's{' '}
-                          <strong>thought process</strong> about how something
-                          works. You can use it as your own guide that you can
-                          test through some cases.
+                          One of the key aspects of Information Risk Management
+                          (IRM) is about{' '}
+                          <strong>
+                            balancing risk against reward effectively.
+                          </strong>{' '}
                         </>
                       }
                     >
-                      Mental model
+                      IRM
                     </Tooltip>{' '}
-                    will make front-end development more{' '}
+                    is a form of risk mitigation through policies, procedures,
+                    and technology that reduces{' '}
                     <strong className='text-gray-700 dark:text-gray-200'>
-                      predictable
+                      the threat
                     </strong>{' '}
-                    by seeing how they work{' '}
+                    of cyber attacks from vulnerabilities and inadequate{' '}
                     <strong className='text-gray-700 dark:text-gray-200'>
-                      fundamentally
+                      data security
                     </strong>
-                    . In my blog, I'm sharing how I approach something and how
-                    my mental model affect my learning about a certain topic.
+                    , including third-parties. There are several internationally
+                    recognised risk management frameworks available in the
+                    market, including and not limited to ISF IRAM, NIST RMF and
+                    ISO - check my blog for more details.
                   </p>
                 </div>
                 <div className='h-full w-full'>
