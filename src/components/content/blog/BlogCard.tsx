@@ -41,7 +41,7 @@ export default function BlogCard({
           <CloudinaryImg
             noStyle
             className='pointer-events-none overflow-hidden rounded-t-md'
-            publicId={`cryptopal85/e-portfolio/blog/banner/${post.banner}`}
+            publicId={`e-portfolio/blog/banner/${post.banner}`}
             alt='blog banner photo taken from somewhere'
             width={1200}
             height={(1200 * 2) / 5}
