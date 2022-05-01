@@ -31,24 +31,27 @@ export default function AboutPage() {
             </h1>
             <div className='mt-4' data-fade='2'>
               <CloudinaryImg
-                className='float-right ml-6 w-36 md:w-72'
-                publicId='theodorusclarence/clarence_gu3cxx.jpg'
-                width='1345'
-                height='1511'
+                className='float-right ml-6 w-36 rounded-full md:w-72'
+                publicId='e-portfolio/gh-black-digitised-cropped_oyayoj.jpg'
+                width='1502'
+                height='1502'
                 alt='Photo of me'
                 preview={false}
               />
               <article className='prose dark:prose-invert'>
                 <p data-fade='3'>
-                  Hello! I'm Clarence. I started learning web development in May
-                  2020, which is the start of the pandemic. I have nothing much
-                  to do so I decided to learn web development from a udemy
-                  course, then started watching a bunch of{' '}
-                  <CustomLink href='/blog/youtube-list'>
-                    youtube videos
+                  Hello! I'm Gürkan. I started working at IBM in February 2009 -
+                  I worked as a technical and customer services representative
+                  for around one year before stepping into the InfoSec field.
+                  Stepping into the InfoSec field dramatically changed the way I
+                  work and helped me develop different traits and habits :-) -
+                  Right now, I am working as a Senior Manager covering
+                  Information Security, Cybersecurity and Risk Management
+                  domains. You can find more details about my career progression
+                  in the{' '}
+                  <CustomLink href='/blog/career-timeline'>
+                    career timeline
                   </CustomLink>{' '}
-                  to explore more about web development especially frontend
-                  development.
                 </p>
                 <p data-fade='4'>
                   There are a lot of things and technologies to learn in
