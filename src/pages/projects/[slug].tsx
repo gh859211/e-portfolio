@@ -28,7 +28,7 @@ export default function SingleProjectPage({ code, frontmatter }: ProjectType) {
   //#region  //*=========== Content Meta ===========
   const contentSlug = `p_${frontmatter.slug}`;
   const meta = useContentMeta(contentSlug, { runIncrement: true });
-  //#endregion  //*======== Content Meta ===========
+  //#end-region  //*======== Content Meta ===========
 
   //#region  //*=========== Scrollspy ===========
   const activeSection = useScrollSpy();
@@ -51,7 +51,7 @@ export default function SingleProjectPage({ code, frontmatter }: ProjectType) {
 
     setToc(headingArr);
   }, [frontmatter.slug]);
-  //#endregion  //*======== Scrollspy ===========
+  //#end-region  //*======== Scrollspy ===========
 
   return (
     <Layout>
@@ -65,7 +65,7 @@ export default function SingleProjectPage({ code, frontmatter }: ProjectType) {
         <section className=''>
           <div className='layout'>
             <CloudinaryImg
-              publicId={`theodorusclarence/${frontmatter.banner}`}
+              publicId={`e-portfolio/project/banner/${frontmatter.banner}`}
               alt={frontmatter.title}
               width={1440}
               height={792}
@@ -174,7 +174,7 @@ export default function SingleProjectPage({ code, frontmatter }: ProjectType) {
 
             <div className='mt-8 flex flex-col items-start gap-4 md:flex-row-reverse md:justify-between'>
               <CustomLink
-                href={`https://github.com/theodorusclarence/theodorusclarence.com/blob/main/src/contents/projects/${frontmatter.slug}.mdx`}
+                href={`https://github.com/cryptopal85/e-portfolio/blob/main/src/contents/projects/${frontmatter.slug}.mdx`}
               >
                 Edit this on GitHub
               </CustomLink>
