@@ -20,7 +20,7 @@ export default function ProjectsPage({
     <Layout>
       <Seo
         templateTitle='Projects'
-        description="Showcase of my projects on front-end development that I'm proud of."
+        description='Showcase of my Projects | MSc Cybersecurity studies.'
       />
 
       <main>
@@ -30,7 +30,7 @@ export default function ProjectsPage({
               <Accent>Projects</Accent>
             </h1>
             <p data-fade='1' className='mt-2 text-gray-600 dark:text-gray-300'>
-              Showcase of my works on frontend development.
+              Projects | MSc Cybersecurity studies
             </p>
 
             <ul
