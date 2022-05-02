@@ -31,8 +31,8 @@ export default function AboutPage() {
             </h1>
             <div className='mt-4' data-fade='2'>
               <CloudinaryImg
-                className='float-right ml-6 w-36 rounded-full md:w-72'
-                publicId='e-portfolio/gh-black-digitised-cropped_oyayoj.jpg'
+                className='float-right ml-6 w-36 md:w-72'
+                publicId='e-portfolio/gh-black-digitised-cropped_oyayoj'
                 width='1502'
                 height='1502'
                 alt='Photo of me'
