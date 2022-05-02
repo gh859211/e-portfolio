@@ -12,6 +12,7 @@ import {
   SiNodedotjs,
   SiNotion,
   SiPrettier,
+  SiPython,
   SiReact,
   SiRedux,
   SiSass,
@@ -111,5 +112,9 @@ const techList = {
   notion: {
     icon: SiNotion,
     name: 'Notion API',
+  },
+  python: {
+    icon: SiPython,
+    name: 'Python',
   },
 };
