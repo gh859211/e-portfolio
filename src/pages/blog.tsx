@@ -81,13 +81,13 @@ export default function IndexPage({
 
     setFilteredPosts(results);
   }, [search, sortOrder.id, populatedPosts]);
-  //#endregion  //*======== Search ===========
+  //#end-region  //*======== Search ===========
 
   //#region  //*=========== Post Language Splitter ===========
   const englishPosts = filteredPosts.filter((p) => !p.slug.startsWith('id-'));
-  const bahasaPosts = filteredPosts.filter((p) => p.slug.startsWith('id-'));
-  const currentPosts = isEnglish ? englishPosts : bahasaPosts;
-  //#endregion  //*======== Post Language Splitter ===========
+  const turkishPosts = filteredPosts.filter((p) => p.slug.startsWith('id-'));
+  const currentPosts = isEnglish ? englishPosts : turkishPosts;
+  //#end-region  //*======== Post Language Splitter ===========
 
   //#region  //*=========== Tag ===========
   const toggleTag = (tag: string) => {
@@ -115,24 +115,24 @@ export default function IndexPage({
       search.toLowerCase().split(' ').includes(tag)
     );
   };
-  //#endregion  //*======== Tag ===========
+  //#end-region  //*======== Tag ===========
 
   return (
     <Layout>
       <Seo
         templateTitle='Blog'
-        description='Thoughts, mental models, and tutorials about front-end development. Rebuild your mental model so front-end development can be predictable.'
+        description='Thoughts, Information Security, Cybersecurity, Risk Management, Web Development'
       />
 
       <main>
         <section className={clsx(isLoaded && 'fade-in-start')}>
           <div className='layout py-12'>
             <h1 className='text-3xl md:text-5xl' data-fade='0'>
-              <Accent>Blog {!isEnglish && 'Bahasa Indonesia'}</Accent>
+              <Accent>Blog {!isEnglish && 'Türkçe'}</Accent>
             </h1>
             <p className='mt-2 text-gray-600 dark:text-gray-300' data-fade='1'>
-              Thoughts, mental models, and tutorials about front-end
-              development.
+              Thoughts | Information Security | Cybersecurity | Risk Management
+              | Blockchain | DApps | Web Development
             </p>
             <StyledInput
               data-fade='2'
@@ -170,7 +170,7 @@ export default function IndexPage({
                 }}
                 className='text-sm !font-medium'
               >
-                Read in {isEnglish ? 'Bahasa Indonesia' : 'English'}
+                Read in {isEnglish ? 'Türkçe' : 'English'}
               </Button>
               <SortListbox
                 selected={sortOrder}
