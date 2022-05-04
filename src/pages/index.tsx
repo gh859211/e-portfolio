@@ -66,14 +66,14 @@ export default function IndexPage({
               data-fade='3'
             >
               I am a security & risk professional who works in the Cybersecurity
-              field and is passionate about | Crypto Assets | Blockchains | Risk
-              Management Frameworks | Privacy Regulations |
+              field and passionate about Crypto | Blockchain | Cybersecurity |
+              Risk Management | Privacy
             </p>
             <p
               className='mt-3 max-w-4xl leading-relaxed text-gray-700 dark:text-gray-200 md:mt-4 md:text-lg 2xl:text-xl'
               data-fade='4'
             >
-              Leave a message to my{' '}
+              Do not forget dropping message to my{' '}
               <CustomLink href='/guestbook'>guestbook</CustomLink>!
             </p>
             <div
@@ -352,17 +352,14 @@ export async function getStaticProps() {
   const library = await getAllFilesFrontmatter('library');
 
   const featuredPosts = getFeatured(blogs, [
-    'one-stop-starter',
-    '2021-retrospective',
-    'nextjs-storybook-tailwind',
-    'react-core-concept-rendering-state',
-    'nextjs-fetch-method',
-    'youtube-list',
+    'information-risk-management',
+    'career-timeline',
   ]);
   const featuredProjects = getFeatured(projects, [
-    'seasforus',
-    'ppdbsumsel',
-    'side-projects',
+    'module4-secure-software',
+    'module3-risk-management',
+    'module2-network-infosec-management',
+    'module1-launching-infosec',
   ]);
   const featuredLibrary = getFeatured(library, [
     'absolute-import',
@@ -374,8 +371,8 @@ export async function getStaticProps() {
   ]);
 
   const introPosts = getFeatured(blogs, [
-    'btb-flex-mental-model',
-    'nextjs-fetch-method',
+    'information-risk-management',
+    'career-timeline',
   ]);
 
   return {
