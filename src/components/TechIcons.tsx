@@ -1,5 +1,8 @@
 import clsx from 'clsx';
 import * as React from 'react';
+import {
+  GiRadarSweep,
+} from 'react-icons/gi';
 import { IoLogoVercel } from 'react-icons/io5';
 import {
   SiFirebase,
@@ -116,5 +119,9 @@ const techList = {
   python: {
     icon: SiPython,
     name: 'Python',
+  },
+  nessus: {
+    icon: GiRadarSweep,
+    name: Nessus
   },
 };
