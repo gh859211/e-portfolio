@@ -28,8 +28,8 @@ export default function Footer() {
         <SocialLinks />
 
         <p className='mt-8 text-sm text-gray-600 dark:text-gray-300'>
-          © Theodorus Clarence {new Date().getFullYear()} •{' '}
-          <FeedbackFish projectId='59a0c0e0d549a7'>
+          © cryptopal85 {new Date().getFullYear()} •{' '}
+          <FeedbackFish projectId='2068f8759d4407'>
             <button className='rounded-sm hover:text-gray-800 focus:outline-none focus-visible:ring focus-visible:ring-primary-300 dark:hover:text-gray-100'>
               Got any feedback?
             </button>
@@ -76,13 +76,13 @@ function SocialLinks() {
             <div className='inline-block rounded-md border bg-white p-2 text-gray-600 shadow-md dark:border-gray-600 dark:bg-dark dark:text-gray-200'>
               {copyStatus}
               <Accent className='inline-block font-medium'>
-                me@theodorusclarence.com
+                me@gurkanhuray@outlook.com
               </Accent>
             </div>
           }
         >
           <CopyToClipboard
-            text='me@theodorusclarence.com'
+            text='gurkanhuray@outlook.com'
             onCopy={() => {
               setCopyStatus('Copied to clipboard 🥳');
               setTimeout(
@@ -125,24 +125,19 @@ const footerLinks = [
     ),
   },
   {
-    href: 'https://clarence.link/docs',
+    href: '',
     text: 'Docs',
-    tooltip: 'Personal documentation about my best practices on development',
+    tooltip: 'Personal documentation about interesting stuffs - not active yet',
   },
   {
-    href: 'https://clarence.link/booknotes',
+    href: '',
     text: 'Book Notes',
-    tooltip: 'Note collection of books that I read',
+    tooltip: 'Note collection of books that I read - not active yet',
   },
   {
-    href: 'https://clarence.link/starters',
-    text: 'Starter Templates',
-    tooltip: 'Starter that I build and use throughout my projects',
-  },
-  {
-    href: 'https://clarence.link/um',
+    href: '',
     text: 'Analytics',
-    tooltip: 'theodorusclarence.com views and visitors analytics',
+    tooltip: 'e-portfolio site views and visitors analytics - not active yet',
   },
   {
     href: '/statistics',
@@ -153,7 +148,7 @@ const footerLinks = [
     href: '/guestbook',
     text: 'Guestbook',
     tooltip:
-      'Leave whatever you like to say—message, appreciation, suggestions',
+      'Leave whatever you like to say | message | appreciation | suggestions |',
   },
   {
     href: '/subscribe',
@@ -161,15 +156,15 @@ const footerLinks = [
     tooltip: 'Get an email whenever I post, no spam',
   },
   {
-    href: 'https://theodorusclarence.com/rss.xml',
+    href: '',
     text: 'RSS',
-    tooltip: 'Add theodorusclarence.com blog to your feeds',
+    tooltip: 'Add xyz blog to your feeds - not active yet',
   },
 ];
 
 const socials = [
   {
-    href: 'https://clarence.link/github',
+    href: 'https://github.com/cryptopal85',
     icon: SiGithub,
     id: 'Github',
     text: (
@@ -179,7 +174,7 @@ const socials = [
     ),
   },
   {
-    href: 'https://clarence.link/linkedin',
+    href: 'https://www.linkedin.com/in/gurkanhuray/',
     icon: SiLinkedin,
     id: 'Linkedin',
     text: (
@@ -189,7 +184,7 @@ const socials = [
     ),
   },
   {
-    href: 'https://clarence.link/twt',
+    href: 'https://twitter.com/gurkan_huray',
     icon: SiTwitter,
     id: 'Twitter',
     text: (
