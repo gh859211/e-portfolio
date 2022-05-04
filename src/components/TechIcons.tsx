@@ -3,7 +3,10 @@ import * as React from 'react';
 import {
   GiRadarSweep,
 } from 'react-icons/gi';
-import { IoLogoVercel } from 'react-icons/io5';
+import {
+  IoLogoVercel,
+  IoSkullOutline,
+} from 'react-icons/io5';
 import {
   SiFirebase,
   SiGit,
@@ -18,6 +21,7 @@ import {
   SiPython,
   SiReact,
   SiRedux,
+  SiRoamresearch,
   SiSass,
   SiTailwindcss,
   SiTypescript,
@@ -129,4 +133,12 @@ const techList = {
     icon: SiZapier,
     name: 'Zap Proxy',
   },
+  research: {
+    icon: SiRoamresearch,
+    name: 'Research',
+  },
+  risk: {
+    icon: IoSkullOutline,
+    name: 'Risk Management'
+  }
 };
