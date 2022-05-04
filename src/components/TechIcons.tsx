@@ -21,6 +21,7 @@ import {
   SiSass,
   SiTailwindcss,
   SiTypescript,
+  SiZapier,
 } from 'react-icons/si';
 
 import Tooltip from '@/components/Tooltip';
@@ -122,6 +123,10 @@ const techList = {
   },
   nessus: {
     icon: GiRadarSweep,
-    name: Nessus
+    name: 'Nessus',
+  },
+  zap: {
+    icon: SiZapier,
+    name: 'Zap Proxy',
   },
 };
