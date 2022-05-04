@@ -113,7 +113,8 @@ export default function LibraryPage({
             </h1>
             <p className='mt-2 text-gray-600 dark:text-gray-300' data-fade='1'>
               Some collection of code snippets that I put for easy access, feel
-              free to reuse!
+              free to reuse! - most of them from the original author and more
+              will come
             </p>
             <StyledInput
               data-fade='2'
