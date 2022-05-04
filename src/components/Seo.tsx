@@ -5,7 +5,7 @@ import { openGraph } from '@/lib/helper';
 
 const defaultMeta = {
   title: 'Gürkan Hüray',
-  siteName: 'theodorusclarence.com',
+  siteName: 'e-portfolio',
   description:
     'An online portfolio and blog based on Theodorus Clarence work. Showcase my MSc studies and some of my thoughts about Cybersecurity.',
   url: 'https://theodorusclarence.com',
