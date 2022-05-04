@@ -18,8 +18,8 @@ export default function AboutPage() {
       <Seo
         templateTitle='About'
         description='Gürkan is a security & risk professional who works in the Cybersecurity
-        field and is passionate about | Crypto Assets | Blockchains | Risk
-        Management Frameworks | Privacy Regulations |'
+        field and is passionate about | Crypto | Blockchain | Cybersecurity | Risk
+        Management | Privacy'
       />
 
       <main>
@@ -27,11 +27,11 @@ export default function AboutPage() {
           <div className='layout min-h-main py-20'>
             <h2 data-fade='0'>About</h2>
             <h1 className='mt-1' data-fade='1'>
-              <Accent>cryptopal85</Accent>
+              <Accent>Gürkan</Accent>
             </h1>
             <div className='mt-4' data-fade='2'>
               <CloudinaryImg
-                className='float-right ml-6 w-36 md:w-72'
+                className='float-right ml-6 w-36 rounded-full md:w-72'
                 publicId='e-portfolio/gh-black-digitised-cropped_oyayoj'
                 width='1502'
                 height='1502'
@@ -54,20 +54,21 @@ export default function AboutPage() {
                   </CustomLink>{' '}
                 </p>
                 <p data-fade='4'>
-                  There are a lot of things and technologies to learn in
-                  frontend development and I am motivated to learn as much as
-                  possible. I enjoy learning something new and getting feedback
-                  to make myself better and improve.
+                  There are a lot of things and technologies to learn in the
+                  Cybersecurity and I am motivated to learn as much as possible.
+                  I enjoy learning something new and getting feedback to make
+                  myself better and improve.
                 </p>
                 <p data-fade='5'>
                   In this website I will be writing some blogs and showcase my
-                  projects. I believe that writing what I have learned is the
-                  best way to remember things, and I can share my knowledge
-                  along the way. So do contact me and I will be very happy to
-                  help!
+                  projects and MSc studies. I believe that writing what I have
+                  learned is the best way to remember things, and I can share my
+                  knowledge along the way.
                 </p>
               </article>
-              <h3 className='mt-12'>Current Favorite Tech Stack</h3>
+              <h3 className='mt-12'>
+                Favorite Tech Stack | Skills | Knowledge
+              </h3>
               <figure className='mt-2'>
                 <TechStack />
               </figure>
@@ -80,8 +81,8 @@ export default function AboutPage() {
             <h2>Contact</h2>
             <article className='prose mt-4 dark:prose-invert'>
               <p>
-                Do contact me if you need my opinion about web development,
-                especially frontend works. I’ll be happy to help! (find my email
+                Do contact me if you need my opinion concerning InfoSec matters,
+                especially standards/frameworks. I’ll do my best! (find my email
                 in the footer)
               </p>
             </article>
