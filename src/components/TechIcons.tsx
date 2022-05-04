@@ -13,6 +13,7 @@ import {
   SiFlask,
   SiGit,
   SiGoogleanalytics,
+  SiHtml5,
   SiJavascript,
   SiMarkdown,
   SiMongodb,
@@ -160,5 +161,9 @@ const techList = {
   digitalocean: {
     icon: SiDigitalocean,
     name: 'Digital Ocean'
+  },
+  html: {
+    icon: SiHtml5,
+    name: 'HTML'
   },
 };
