@@ -8,13 +8,17 @@ import {
   IoSkullOutline,
 } from 'react-icons/io5';
 import {
+  SiDigitalocean,
   SiFirebase,
+  SiFlask,
   SiGit,
   SiGoogleanalytics,
   SiJavascript,
   SiMarkdown,
   SiMongodb,
+  SiMysql,
   SiNextdotjs,
+  SiNginx,
   SiNodedotjs,
   SiNotion,
   SiPrettier,
@@ -140,5 +144,21 @@ const techList = {
   risk: {
     icon: IoSkullOutline,
     name: 'Risk Management'
-  }
+  },
+  flask: {
+    icon: SiFlask,
+    name: 'Flask'
+  },
+  mysql: {
+    icon: SiMysql,
+    name: 'MySql'
+  },
+  nginx: {
+    icon: SiNginx,
+    name: 'Nginx'
+  },
+  digitalocean: {
+    icon: SiDigitalocean,
+    name: 'Digital Ocean'
+  },
 };
