@@ -11,7 +11,7 @@ export default function GuestbookPage() {
     <Layout>
       <Seo
         templateTitle='Guestbook'
-        description='Leave whatever you like to say—message, appreciation, suggestions.'
+        description='Leave whatever you like to say | message | appreciation | suggestions |'
       />
 
       <main>
@@ -23,9 +23,7 @@ export default function GuestbookPage() {
             <p className='mt-2 text-gray-700 dark:text-gray-200'>
               Leave whatever you like to say—message, appreciation, suggestions.
               If you got some questions, you can leave them on the{' '}
-              <CustomLink href='https://github.com/theodorusclarence/theodorusclarence.com/discussions/179'>
-                AMA discussion
-              </CustomLink>
+              <CustomLink href=''>AMA discussion - not active yet</CustomLink>
             </p>
             <figure className='mt-12'>
               <Comment />
