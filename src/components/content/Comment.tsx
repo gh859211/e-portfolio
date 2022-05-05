@@ -9,10 +9,10 @@ export default function Comment() {
   return commentFlag ? (
     <Giscus
       key={theme}
-      repo='theodorusclarence/theodorusclarence.com'
-      repoId='MDEwOlJlcG9zaXRvcnkzMzAyMTQyNDc='
+      repo='cryptopal85/e-portfolio'
+      repoId='R_kgDOHQjojQ'
       category='General'
-      categoryId='DIC_kwDOE66rZ84B--B0'
+      categoryId='DIC_kwDOHQjojc4CO8HV'
       mapping='pathname'
       reactionsEnabled='0'
       emitMetadata='0'
