@@ -9,6 +9,7 @@ import {
 } from 'react-icons/io5';
 import {
   SiDigitalocean,
+  SiEclipsemosquitto,
   SiFirebase,
   SiFlask,
   SiGit,
@@ -28,6 +29,7 @@ import {
   SiRedux,
   SiRoamresearch,
   SiSass,
+  SiSmartthings,
   SiTailwindcss,
   SiTypescript,
   SiZapier,
@@ -165,5 +167,13 @@ const techList = {
   html: {
     icon: SiHtml5,
     name: 'HTML'
+  },
+  mqtt: {
+    icon: SiSmartthings,
+    name: 'MQTT Protocol'
+  },
+  mosquitto: {
+    icon: SiEclipsemosquitto,
+    name: 'Mosquitto Broker'
   },
 };
