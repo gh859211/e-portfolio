@@ -34,6 +34,9 @@ import {
   SiTypescript,
   SiZapier,
 } from 'react-icons/si';
+import {
+  HiOutlineDocumentSearch,
+} from 'react-icons/hi';
 
 import Tooltip from '@/components/Tooltip';
 
@@ -175,5 +178,9 @@ const techList = {
   mosquitto: {
     icon: SiEclipsemosquitto,
     name: 'Mosquitto Broker'
+  },
+  literature: {
+    icon: HiOutlineDocumentSearch,
+    name: 'Literature Review'
   },
 };
